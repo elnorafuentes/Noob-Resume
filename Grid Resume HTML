@@ -1,0 +1,130 @@
+<style>
+  
+.row, 
+.column {
+    box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.column {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.column + .column {
+    margin-left: 1.6%;
+}
+
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+
+/*------------------------------*\
+    Styling
+\*------------------------------*/
+
+body {
+    padding: 20px;
+}
+
+.column {
+    color: #000;
+    padding: 5px;
+    min-width: 100px;
+    max-width: 400px;
+}
+</style>
+<body>
+<div class="row">
+    <div class="column column-5">
+      <h1>Lore</h1>
+        <p>Software Engineer with a Database skin on a quest to level up. Quest requires either Associate Front End or Associate Software Engineer skin. <br>In possession of skill recipes, in search of Ye Olde Shoppe to make and improve them, as well as increase inventory limit to sample and collect more.</p><br>
+      
+      <h1>Spawning Point</h1>
+      <h3>Bachelor of Science</h3>
+      Computer Science and Engineering<br>
+        Minor in Mathematics<br>
+        University of Colorado at Denver<br><br>
+
+      <h1>Current Recipes</h1>
+           <div class="column column-3">      
+        FileMaker<br>
+        C++<br>
+        HTML<br>
+        CSS<br>
+        JavaScript<br></div>
+        <div class="column column-2">     
+        +4<br>
+        +2<br>
+        +1<br>
+        +1<br>
+        +1</div>
+
+  </div>
+    <div class="column column-7">
+      <h1>Quests Completed</h1>
+      
+      <h3>Database Engineer</h3>
+
+Blue Marble Enterprises, Inc.		<br>
+Aurora, CO <br>
+06/2014 to Present<br>
+
+<p>Created and currently maintain several interconnected user interfaces with complex navigation leading to customers increasing interaction with their data and continuing requests for new features.<br>
+Built a small scale full stack web application utilizing various APIs leading to a centralized location for research by the data researcher.<br></p>
+
+      <h3>Undergraduate Teacher’s Assistant</h3>
+
+University of Colorado at Denver<br>
+      Denver, CO<br>
+08/2012 to 05/2013<br>
+
+<p>Teaching Assistant for Calculus I and Algebra I Recitation Section Leader<br>
+  Homework Assistance, Test Review<br></p>
+
+      <h3>Student Assistant</h3>
+
+      University of Colorado at Denver<br>
+      Math Education Resource Center<br>
+      Denver, CO<br>
+      08/2011 to 05/2014<br>
+
+<p>Tutored students in undergraduate Mathematics courses<br>
+  Proctored online tests taken in the computer lab<br></p>
+
+      <h3>Character Respec</h3>
+
+Denver, CO<br>
+2011<br>
+
+  </div>
+</div>
+</div>
+</div>
+</body>
+
+<!-- Started from: https://codepen.io/SitePoint/pen/dPqqvN -->
