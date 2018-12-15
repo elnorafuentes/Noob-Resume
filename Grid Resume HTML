@@ -63,8 +63,8 @@ body {
 <div class="row">
     <div class="column column-5">
       <h1>Lore</h1>
-        <p>Software Engineer with a Database skin on a quest to level up. Quest requires either Associate Front End or Associate Software Engineer skin. <br>In possession of skill recipes, in search of Ye Olde Shoppe to make and improve them, as well as increase inventory limit to sample and collect more.</p><br>
-      
+        <p>Software Engineer with a Database skin on a quest to level up. Quest requires either Associate Front End or Associate Software Engineer skin. </p>
+      <p>In possession of skill recipes, in search of Ye Olde Shoppe to make and improve them, as well as increase inventory limit to sample and collect more.</p>      
       <h1>Spawning Point</h1>
       <h3>Bachelor of Science</h3>
       Computer Science and Engineering<br>
@@ -95,9 +95,24 @@ Blue Marble Enterprises, Inc.		<br>
 Aurora, CO <br>
 06/2014 to Present<br>
 
-<p>Created and currently maintain several interconnected user interfaces with complex navigation leading to customers increasing interaction with their data and continuing requests for new features.<br>
-Built a small scale full stack web application utilizing various APIs leading to a centralized location for research by the data researcher.<br></p>
+<p>Building and maintaining a system of 20 interconnected user interfaces
+  <ul>
+    <li>Within the FileMaker DBMS</li>
+    <li>Using FileMaker scripting for navigation</li>
+    <li>Performing routine maintenance</li>
+    <li>Adding new interfaces as requested</li>
+      </ul>
+Leading to increasing customer interaction with their data and continuing requests for new features.</p>
 
+<p>Created a small scale full stack web application
+  <ul>
+<li>Built with HTML, CSS, and JavaScript</li>
+<li>Using various search APIs to collect search results</li>
+<li>Using JavaScript to parse and display results to the user</li>
+<li>Finally using FileMaker PHP API to store search results</li>
+  </ul>
+Leading to a centralized location for research by the data researcher.
+</p>
       <h3>Undergraduate Teacher’s Assistant</h3>
 
 University of Colorado at Denver<br>
